@@ -1,6 +1,3 @@
-//  deep_copy.js
-
-
 //Deep copy using JSON methods:
 //Utilizing JSON methods like JSON.parse(JSON.stringify()) enables a deep copy
 //of the data structure. This approach works well for arrays and objects, creating
