@@ -1,6 +1,3 @@
-//  shallow_copy.js
-
-
 //Shallow copy using spread syntax:
 //The spread syntax ([...]) or ({...}) creates a shallow copy of the data structure.
 //While it duplicates the top-level structure of the array/object, it does not perform
