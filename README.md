@@ -1,3 +1,6 @@
+<!--
+Daily Hustle store
+-->
 # 📚 Daily-Hustle-Solutions
 
 ## 👀 Overview
