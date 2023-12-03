@@ -1,5 +1,4 @@
 <!-- Daily Hustle Solution -->
-
 # 📚 Daily-Hustle-Solutions
 
 ## 👀 Overview
