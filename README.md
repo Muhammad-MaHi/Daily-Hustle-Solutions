@@ -1,4 +1,4 @@
-<!-- Daily Hustle Solution & Store -->
+<!-- Daily Hustle Solution & Store Of Code-->
 
 # 📚 Daily-Hustle-Solutions
 
