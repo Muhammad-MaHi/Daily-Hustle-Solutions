@@ -14,3 +14,6 @@ console.log(Object.entries(array)); // --> [ [0,1], [1,2], [2,3] ]
 for (const [index, val] of Object.entries(array)) {
   console.log(index, val);
 }
+
+
+
