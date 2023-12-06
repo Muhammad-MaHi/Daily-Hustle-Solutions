@@ -16,6 +16,3 @@ console.log(Object.entries(profile)); // --> [ [name, "mahi" ], ["age" , 18 ] ]
 for (const [key, val] of Object.entries(profile)) {
   console.log(key, val);
 }
-
-
-
