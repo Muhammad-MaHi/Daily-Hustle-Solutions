@@ -7,13 +7,10 @@ const array = [1, 2, 3];
 console.log(Object.entries(array)); // --> [ [0,1], [1,2], [2,3] ]
 
 /**
- * Next distracture the array
+ * Next we distracture the array
  * Now we have index and val
  */
 
 for (const [index, val] of Object.entries(array)) {
   console.log(index, val);
 }
-
-
-
