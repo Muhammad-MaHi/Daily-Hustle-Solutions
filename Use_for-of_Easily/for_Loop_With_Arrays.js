@@ -7,7 +7,7 @@ const array = [1, 2, 3];
 console.log(Object.entries(array)); // --> [ [0,1], [1,2], [2,3] ]
 
 /**
- * Next we distracture the array
+ * Next distracture the array
  * Now we have index and val
  */
 
