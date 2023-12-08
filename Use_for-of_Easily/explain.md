@@ -9,7 +9,7 @@ const profile = {
 console.log(Object.entries(profile)); // --> [ [name, "mahi" ], ["age" , 18 ] ]
 
 /**
- * Next we  destructure the array
+ * Next we have to destructure the array
  * now we have key and val
  */
 
