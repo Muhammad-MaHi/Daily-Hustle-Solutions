@@ -5,11 +5,21 @@
 **Solution:** This code snippet effectively removes these falsy values using the `filter` method:
 
 ```javascript
-const miscellaneous = ["Apple", NaN, "Mango", null, "Banana", 0, "Orange", false, "pineapple", undefined];
+const miscellaneous = [
+  'Apple',
+  NaN,
+  'Mango',
+  null,
+  'Banana',
+  0,
+  'Orange',
+  false,
+  'pineapple',
+  undefined,
+];
 const fruits = miscellaneous.filter(Boolean);
 console.log(fruits); // ["Apple", "Mango", "Banana", "Orange", "pineapple"]
 ```
-
 
 **Explanation:**
 
@@ -17,12 +27,6 @@ console.log(fruits); // ["Apple", "Mango", "Banana", "Orange", "pineapple"]
 2. **`filter` Method:** This iterates over each element and returns a new array based on a test function.
 3. **Boolean Test Function:** This simply checks if each element is truthy (non-falsy). True values (valid fruits) are kept, while falsy values are discarded.
 4. **`fruits` Array:** This new array contains only the filtered fruits (no falsy values).
-
-**Benefits & Applications:**
-
-* **Simple & Efficient:** Easy to understand and implement for effective falsy value removal.
-* **Flexible:** Adapt the test function to filter based on different criteria (e.g., minimum string length).
-* **Widely Applicable:** Useful for cleaning data, extracting specific information, and validating user input.
 
 **Conclusion:**
 
