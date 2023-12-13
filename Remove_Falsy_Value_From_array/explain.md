@@ -6,16 +6,11 @@
 
 ```javascript
 const miscellaneous = [
-  'Apple',
-  NaN,
-  'Mango',
-  null,
-  'Banana',
-  0,
-  'Orange',
-  false,
-  'pineapple',
-  undefined,
+  'Apple', NaN,
+  'Mango', null,
+  'Banana', 0,
+  'Orange', false,
+  'pineapple', undefined,
 ];
 const fruits = miscellaneous.filter(Boolean);
 console.log(fruits); // ["Apple", "Mango", "Banana", "Orange", "pineapple"]
