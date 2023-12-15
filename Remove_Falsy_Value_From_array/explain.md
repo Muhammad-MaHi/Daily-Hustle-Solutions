@@ -1,5 +1,4 @@
-## Understanding Falsy Value Removal in JavaScript Arrays
-
+### Remove falsy values form an array 
 **Problem:** Your data array contains a mix of valid information (like fruit names) and unwanted falsy values (e.g., `NaN`, `null`, `undefined`). This hinders further analysis.
 
 **Solution:** This code snippet effectively removes these falsy values using the `filter` method:
